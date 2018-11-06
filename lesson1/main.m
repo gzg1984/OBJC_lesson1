@@ -8,6 +8,25 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Header.h"
+
+//@interface spaceship()
+//@end
+
+
+@implementation spaceship
+
+- (void)plus:(int)one and:(int)two
+{
+//    int t;
+//    t = one + two;
+    NSLog(@"Hello, World!");
+    
+    return;
+}
+@end
+
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
